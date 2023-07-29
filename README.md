@@ -26,3 +26,19 @@ This project was created with [Vite](https://vitejs.dev/).
 1. useEffect to get the data;
 2. the cunstom hook useCart: for managing the cart data;
 3. useState, useContext: for managing the state of the project;
+
+# website address
+
+if you want to see the website, please click the link below: https://myfirstsitebyreact.netlify.app/
+
+# test
+
+sorry I don't know the knowledge about test, so I didn't write the test code. I thought I could learn it in this weekend, but I need to prepare for my another interview on Money. But I will learn it in the future.
+
+# my other project link
+
+If you have interest, you can click the link below to see my other project. It is a full stack project.
+https://github.com/BarbossaH/CommerceSIte_MERN
+
+About this project:
+This project is a commerce site. It is a full stack project. The front end is react, the back end is node.js, the database is mongodb. I don't finish the payment part and profile functionalities yet. I will finish them in a few days. I don't use redux in this project. I use context to manage the state of the project. One day I will use redux to modify this or create another project.

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+body {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+  min-width: 390px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .customer {
+    padding-left: 20vh;
+    padding-right: 15vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .customer {
+    padding-left: 25vh;
+    padding-right: 20vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .customer {
+    padding-left: 30vh;
+    padding-right: 25vh;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  padding: 10px;
+}
+.header {
+  position: relative;
+  width: 110vw;
+  height: 30px;
+  line-height: 30px;
+  background-color: #f6f6f7;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+  /* border: 1px solid red; */
+}
+
+.myCart {
+  position: absolute;
+  right: 15%;
+  width: 90px;
+  font-size: 12px;
+  text-align: center;
+}
+.itemList {
+  position: absolute;
+  top: 103%;
+  right: 15%;
+  width: 350px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.sizeButton {
+  width: 40px;
+  height: 40px;
+}
+
+.addToCart {
+  color: #222222;
+  width: 150px;
+  border: 2px solid #222222;
+  transition: background-color 0.2s;
+}
+.addToCart:hover {
+  color: white;
+  background-color: #222222;
+}

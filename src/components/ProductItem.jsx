@@ -29,7 +29,7 @@ const ProductItem = ({ products }) => {
       <div className="col-md-6">2</div> */}
     </div>
   ) : (
-    <p>This is not products in the cart.</p>
+    <p>Cart is empty.</p>
   );
 };
 export default ProductItem;

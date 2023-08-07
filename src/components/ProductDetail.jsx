@@ -42,13 +42,22 @@ const ProductDetail = ({ productInfo }) => {
       toastr.warning('Please select the Size');
     }
   };
+
   return (
-    <div className="m-2 row customer flex">
+    <div
+      className=" row  flex customer"
+      // style={{ paddingLeft: '150px', paddingRight: '150px' }}
+    >
       <div className="col-md-6">
-        <img src={productInfo.imageURL} className="card-img-top" alt={'name'} />
+        <img
+          src={productInfo.imageURL}
+          className="card-img-top"
+          alt={'name'}
+          style={{ width: '100%', height: 'auto' }}
+        />
       </div>
       <div
-        className=" col-md-6 "
+        className="col-md-6 "
         style={{ textAlign: 'left', fontSize: '18px' }}
       >
         <p className="mt-3">{productInfo.title}</p>

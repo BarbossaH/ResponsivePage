@@ -6,25 +6,31 @@ body {
   user-select: none; /* Standard syntax */
   min-width: 390px;
 }
+@media (max-width: 767px) {
+  .customer {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
   .customer {
-    padding-left: 20vh;
-    padding-right: 15vh;
+    padding-left: 150px;
+    padding-right: 120px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .customer {
-    padding-left: 25vh;
-    padding-right: 20vh;
+    padding-left: 200px;
+    padding-right: 150px;
   }
 }
 
 @media (min-width: 1200px) {
   .customer {
-    padding-left: 30vh;
-    padding-right: 25vh;
+    padding-left: 250px;
+    padding-right: 200px;
   }
 }
 * {
